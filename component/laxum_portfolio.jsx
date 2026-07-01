@@ -158,7 +158,7 @@ export default function PortFolio() {
           {/* Photo placeholder */}
           {/* <div className="relative w-72 h-80 md:w-80 md:h-96 rounded-3xl overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300 flex items-end justify-center shadow-xl"> */}
           {/* <div className="absolute inset-0 flex items-center justify-center text-gray-400"> */}
-          <img src="../public/photo_2026-07-02_00-27-33.jpg" alt="" className="object-covers w-110 h-140  rounded-t-4xl rounded-br-[200px]" />
+          <img src="../public/photo_2026-07-02_00-27-33.png" alt="" className="object-covers w-110 h-140  rounded-t-4xl rounded-br-[200px]" />
           {/* </div> */}
           {/* <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"/> */}
           {/* </div> */}
