@@ -1,0 +1,14 @@
+@import "tailwindcss";
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@700;800&display=swap');
+        .font-display { font-family: 'Syne', sans-serif; }
+        .font-body { font-family: 'DM Sans', sans-serif; }
+        .accent { color: #a855f7; }
+        .bg-accent { background: #a855f7; }
+        .border-accent { border-color: #a855f7; }
+        .project-card:hover .project-arrow { transform: translate(3px,-3px); }
+        .project-arrow { transition: transform 0.25s ease; }
+        .nav-link::after { content:''; display:block; height:1px; background:#a855f7; transform:scaleX(0); transform-origin:left; transition:transform 0.25s ease; }
+        .nav-link:hover::after { transform:scaleX(1); }
+        @keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
+        .pulse-dot { animation: pulse-dot 1.5s infinite; }
+        @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
